@@ -1,3 +1,4 @@
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 // Importando as funções necessárias do Firebase SDK
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs } from "firebase/firestore";

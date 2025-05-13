@@ -1,3 +1,4 @@
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React, { useEffect, useState, useRef } from 'react';
 import { View, Text, ScrollView, ActivityIndicator, Pressable } from 'react-native';
 import { Picker } from '@react-native-picker/picker';

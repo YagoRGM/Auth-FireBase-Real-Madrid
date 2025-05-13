@@ -1,3 +1,4 @@
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import AWS from 'aws-sdk';
 
 const s3 = new AWS.S3({

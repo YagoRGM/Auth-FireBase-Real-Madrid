@@ -1,4 +1,4 @@
-// Yago Roberto Gomes Moraes
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React from 'react';
 import { View, ScrollView, Text, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
         padding: 15,
         borderRadius: 10,
         marginVertical: 10,
-        width: '70%',
+        width: 300,
         alignItems: 'center',
         shadowColor: '#000',
         shadowOpacity: 0.3,

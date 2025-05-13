@@ -1,4 +1,4 @@
-// Yago Roberto Gomes Moraes
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 

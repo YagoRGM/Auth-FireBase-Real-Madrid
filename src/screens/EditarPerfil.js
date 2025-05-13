@@ -1,3 +1,4 @@
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React, { useEffect, useState } from 'react';
 import {
   View, Text, TextInput, TouchableOpacity, Image, StyleSheet

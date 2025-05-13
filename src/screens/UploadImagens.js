@@ -1,3 +1,4 @@
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React, { useState } from 'react';
 import { View, Text, Button, Image, StyleSheet } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';

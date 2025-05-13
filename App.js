@@ -1,4 +1,4 @@
-// Yago Roberto Gomes Moraes
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';

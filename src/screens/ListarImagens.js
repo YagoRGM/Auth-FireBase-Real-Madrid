@@ -1,3 +1,4 @@
+// Joao Pedro da Cunha Machado e Yago Roberto Gomes Moraes
 import React, { useState, useEffect } from 'react';
 import { View, Text, Image, ScrollView, ActivityIndicator, StyleSheet } from 'react-native';
 import s3 from '../../awsConfig';
