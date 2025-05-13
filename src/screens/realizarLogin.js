@@ -40,12 +40,20 @@ export default RealizarLogin = ({ navigation }) => {
           style={styles.input}
           placeholderTextColor="#ddd"
         />
-        <TouchableOpacity onPress={TentarLogar} style={styles.button}>
-          <Text style={styles.buttonText}>Entrar</Text>
-        </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigation.navigate('Início')}>
-          <Text>Entrar</Text>
+        {/* BOTAO COM VALIDACAO */}
+        {/* <TouchableOpacity onPress={TentarLogar} style={styles.button}>
+          <Text style={styles.buttonText}>Entrar</Text>
+        </TouchableOpacity> */}
+
+        <TouchableOpacity
+          onPress={() => navigation.reset({
+            index: 0,
+            routes: [{ name: 'Início' }],
+          })}
+          style={styles.button}
+        >
+          <Text style={styles.buttonText}>Entrar</Text>
         </TouchableOpacity>
 
       </View>
